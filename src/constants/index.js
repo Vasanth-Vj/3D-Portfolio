@@ -23,7 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    
   } from "../assets";
+
+  
   
   export const navLinks = [
     {
@@ -54,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
@@ -72,10 +75,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -104,67 +107,70 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "SSLC",
+      company_name: "NSMVPS Higher Secondary School- Devakottai",
+      icon: meta,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "2016 - 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I am proud to have completed my 10th standard with an outstanding score of 91%.",
+        "Throughout my academic journey, I have consistently demonstrated dedication and passion for learning, reflected in my excellent performance across various subjects",
+        "My exceptional academic performance is a testament to my hard work, determination, and intellectual curiosity.",
+        "Beyond securing high grades, I actively engage in extracurricular activities, further enhancing my holistic development.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "HSC",
+      company_name: "NSMVPS Higher Secondary School - Devakottai",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "2018 - 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I am delighted to have completed my 12th standard with a commendable score of 67.8%.",
+        " This achievement underscores my dedication and perseverance in the face of academic challenges, highlighting my commitment to continuous improvement and growth.",
+        "My academic journey  has equipped me with a versatile skill set and a thirst for knowledge.",
+        "While my overall percentage is a testament to my hard work and dedication, it also underscores my resilience in the face of academic rigors. ",
+      ],
+    },
+    {
+      title: "B.E Mechatronics",
+      company_name: "Suguna College Of Engineering - Coimbatore",
+      icon: meta,
+      iconBg: "#383E56",
+      date: "2019 - 2023",
+      points: [
+        "I am  successfully completed my Bachelor's degree in the Mechatronics department with an exceptional score of 80%.",
+        "This accomplishment reflects my dedication, hard work, and passion for the field of mechatronics, as well as my commitment to academic excellence.",
+        "Throughout my undergraduate studies, I have gained a comprehensive understanding of mechatronics, which integrates mechanical, electrical, and computer engineering principles.",
+        "I have acquired practical skills in designing, building, and analyzing complex electromechanical systems.",
+      ],
+    },
+    {
+      title: "Full stack Developer (MERN)",
+      company_name: "GT Software College - Coimbatore",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "Nov 2023 - Jan 2024",
+      points: [
+        "Successfully completed an internship focused on mastering the MERN (MongoDB, Express.js, React.js, Node.js) stack, a modern and widely used technology stack for building dynamic web applications.",
+        "Developed a fully functional e-commerce website from scratch using the MERN stack. ",
+        "Created a Todo application using MERN stack, allowing users to efficiently manage their tasks.",
+        "Designed and developed a professional portfolio website to showcase skills, projects, and experience.",
+        "Developed a calculator application using MERN stack, providing users with a simple yet powerful tool for performing basic arithmetic operations.",
+        "Through these projects, I have gained valuable hands-on experience in building full-stack web applications using cutting-edge technologies, honing my skills in frontend and backend development, database management, and project deployment. ",
       ],
     },
   ];
@@ -198,9 +204,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E Commerce Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "My E-Commerce Website project based on React  with basic layout using html & CSS for good and attractive designs and also I'm using bootstrap framework to avoid more CSS property &  responsive for mobile.In backend, MongoDB used for data handling.",
       tags: [
         {
           name: "react",
@@ -211,28 +217,28 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.longines.com/en-in/zulu/",
     },
     {
-      name: "Job IT",
+      name: "To-DO App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Create a modern and responsive to-do application that allows users to manage tasks efficiently. The application will be build using HTML, CSS, React for the frontend, javaScript for functionality, and MongoDB for database storage.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mongoDb",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javaScript",
           color: "pink-text-gradient",
         },
       ],
@@ -240,20 +246,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Calculator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Basic Calculator using React and Javascript,Implemented core calculator functionalities such as addition, subtraction, multiplication, and division using JavaScript, ensuring accurate calculations and error handling. ",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javaScript",
           color: "pink-text-gradient",
         },
       ],
